@@ -1,0 +1,82 @@
+
+
+#app {
+  font-family: 'Courier New', monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #5a2323;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator {
+  width: 440px;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px auto;
+  font-size: 16px;
+  background-color: #530303;
+}
+
+.input {
+  width: 420px;
+  height: 50px;
+  border-radius: 0px;
+  border: 1px solid  #bd6969 ;
+  background-color: #4d1d1d;
+  color: #d47a7a;
+  padding: 0 5px 0 5px;
+  margin: 0 0px 10px 0px;
+  font-size: 30px;
+}
+
+.input:focus,
+.input:active {
+  border-color: #03a9f4;
+  box-shadow: 0 0 4px #03A9F4;
+  outline: none 0;
+}
+
+.button {
+  margin: 3px;
+  width: 63px;
+  border: 1px solid #5a2323;
+  height: 30px;
+  border-radius: 4px;
+  color: #d47a7a;
+  background-color: #6d2c2c;
+  cursor: pointer;
+  outline: none;
+}
+
+.mode {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.equal-sign {
+  background-color: #6d2c2c;
+  width: 133px;
+}
+
+.toggle-button {
+  border: none;
+  background-color: #530303;
+  cursor: pointer;
+  outline: none;
+  font-size: 1rem;
+  color: #d47a7a;
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.35);
+}
+
+p {
+  margin-top: 0;
+}
+
+button::-moz-focus-inner {
+  border-color: transparent;
+}
